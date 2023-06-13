@@ -88,6 +88,9 @@ The program reads the process data from an XML file in the following format:
 
 You can modify the `XMLFile.xml` file or create your own XML file with process data to test different scenarios.
 
+## Acknowledgement
+This program utilizes the RapidXML library for parsing XML files. RapidXML is an open-source library developed by Marcin Kalicinski. More information about RapidXML can be found at: https://rapidxml.sourceforge.net
+
 ## Contributing
 
 If you would like to contribute to this program, please follow these steps:
