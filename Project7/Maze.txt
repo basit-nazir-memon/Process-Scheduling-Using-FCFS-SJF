@@ -1,0 +1,8 @@
+rowsize: 8 ,columnsize: 8
+no of hurdles: 6
+1 2
+3 3
+2 6
+5 5
+1 6
+1 7

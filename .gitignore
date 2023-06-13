@@ -1,0 +1,80 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+
+# Visual Studio files
+.vs/
+*.sdf
+*.suo
+*.opensdf
+*.user
+*.vcxproj*
+*.vcproj*
+*.pdb
+*.ipch/
+*.obj
+*.log
+*.tlog
+*.manifest
+*.ilk
+*.iobj
+*.pch
+*.idb
+*.bsc
+*.exp
+*.sbr
+*.VC.db
+*.VC.opendb
+*.*.lock
+[Bb]in/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+
+# Compiled files for specific IDEs
+*.aps
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.tmp
+
+# Build and debug folders
+[Bb]uild/
+[Dd]ebug*/
+[Rr]elease*/
+[Oo]bj/
+[Tt]emp/
+
+# Dependency directories
+[Oo]pen[Cc]V/
+[Gg]lew/
+[Gg]lfl/
+[Oo]pen[Aa]L/
+
+# Editor-specific files
+*~
+*.[Bb][Aa][Kk]
+[Tt]humbs.db
+[Dd]esktop.ini
+
+# macOS specific files
+.DS_Store
+
+# Compiled Python files
+*.pyc
+*.pyo
+__pycache__/

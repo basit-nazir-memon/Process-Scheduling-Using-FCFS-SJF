@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AssignmentInput>
+<QueueSet>
+<SetName>Background Queues</SetName>
+<UpgradePolicy>time</UpgradePolicy>
+<DowngradePolicy> time </DowngradePolicy>
+<QAllocPolicy>2</QAllocPolicy>
+<Queue number="1" >
+<SchedulingPolicy> FCFS </SchedulingPolicy>
+</Queue>
+<Queue number="2">
+<SchedulingPolicy> SJF</SchedulingPolicy>
+</Queue>
+
+</QueueSet>
+<Configuration>
+<Processes number="2" >
+<Process ID="1">
+<ArrivalTime>0</ArrivalTime>
+<Type>IO_Bound</Type>
+<code>
+WRITESCREEN
+READKEYBOARD
+COMPUTE
+READMEMORY
+COMPUTE
+READKEYBOARD
+WRITEMEMORY
+WRITEPRINTER
+</code>
+</Process>
+<Process ID="2">
+<ArrivalTime>1</ArrivalTime>
+<Type>CPU_Bound</Type>
+<code>
+WRITEMEMORY
+READMEMORY
+COMPUTE
+</code>
+</Process>
+</Processes>
+</Configuration>
+</AssignmentInput>
